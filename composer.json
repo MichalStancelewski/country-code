@@ -1,13 +1,21 @@
 {
-    "name": "mist/country-code",
-    "description": "A tool for transforming country names into two- and three-character codes according to the ISO 3166 standard.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Michał Stancelewski",
-            "email": "michal@stancelewski.pl"
-        }
-    ],
-    "minimum-stability": "stable"
+  "name": "mist/country-code",
+  "description": "A tool for transforming country names into two- and three-character codes according to the ISO 3166 standard.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CountryCode\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Michał Stancelewski",
+      "email": "michal@stancelewski.pl"
+    }
+  ],
+  "minimum-stability": "stable"
 }
